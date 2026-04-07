@@ -146,7 +146,7 @@ SINGLE_PRODUCTS = {
         'label': '24-Hour QPE (in)',
     },
     'refl': {
-        'prefix': 'HAWAII/MergedBaseReflectivity_00.50',
+        'prefix': 'HAWAII/MergedBaseReflectivityQC_00.50',
         'bounds': [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 75],  # dBZ
         'colors': [
             '#646464',  # 0-5  dBZ : dark gray
@@ -164,7 +164,7 @@ SINGLE_PRODUCTS = {
             '#bc0000',  # 60-65     : darker red
             '#f800fd',  # 65-75     : magenta
         ],
-        'min_val': 0.0,
+        'min_val': 5.0,
         'max_val': 80.0,
         'label': 'Base Reflectivity (dBZ)',
     },
